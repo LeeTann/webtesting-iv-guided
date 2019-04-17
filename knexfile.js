@@ -34,15 +34,15 @@ module.exports = {
     seeds: {
       directory: './data/seeds',
     },
-    production: {
-      client: 'postgres',
-      connection: prodDbConnection, // an object or a string
-      migrations: {
-        directory: './data/migrations'
-      },
-      seeds: {
-        directory: './data/seeds',
-      },
-    }
   },
+  production: {
+    client: 'postgres',
+    connection: prodDbConnection, // an object or a string
+    migrations: {
+      directory: './data/migrations'
+    },
+    seeds: {
+      directory: './data/seeds',
+    },
+  }
 };
